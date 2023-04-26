@@ -89,13 +89,19 @@ const Footer = () => {
             <h4>Coming soon on </h4>
             <div className="socialmedia">
               <p>
-                <img src={twitter} alt="" />
+                <a href="https://twitter.com/allyfinancial?lang=en">
+                  <img src={twitter} alt="twitter" />
+                </a>
               </p>
               <p>
-                <img src={tiktok} alt="" />
+                <a href="https://www.tiktok.com/@allydoitright?lang=en">
+                  <img src={tiktok} alt="tiktok" />
+                </a>
               </p>
               <p>
-                <img src={insta} alt="" />
+                <a href="https://www.instagram.com/ally/?hl=en">
+                  <img src={insta} alt="instagram" />
+                </a>
               </p>
             </div>
           </div>
