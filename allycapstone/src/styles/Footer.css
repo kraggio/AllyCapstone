@@ -24,10 +24,10 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  color: hotpink;
+  color: #fc427b;
 }
 .sb__footer-links-div h4 {
-  color: hotpink;
+  color: #fc427b;
 }
 
 a {
