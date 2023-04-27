@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from "../components/Slider";
+// import Slider from "../components/Slider";
 
 function Home() {
     return (
@@ -7,9 +7,9 @@ function Home() {
         <div className="home">
           <div className="content">
             <h3> welcome to Social Spark!</h3>
-            {/* <a href="/partners">
+            <a href="/partners">
               <button>Explore!</button>
-            </a> */}
+            </a>
           </div>
         </div>
         <Slider />
