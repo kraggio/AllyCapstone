@@ -14,7 +14,10 @@ class Navbar extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/volunteer">Volunteer Hours</Link>
+            <Link to="/volunteer">Track Your Hours</Link>
+          </li>
+          <li>
+            <Link to="/partners">Partners</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
@@ -22,6 +25,7 @@ class Navbar extends Component {
           <li>
             <Link to="/login">Login</Link>
           </li>
+          
         </ul>
       </nav>
     );
