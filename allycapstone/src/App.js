@@ -15,6 +15,7 @@ import Volunteer from "./pages/Volunteer";
 import Map from "./components/Map";
 
 import Footer from "./components/Footer";
+import Partners from "./pages/Partners"
 
 
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="volunteer" element={<Volunteer Hours />} />
           <Route path="login" element={<Login />} />
+          <Route path="partners" element={<Partners />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
         <Footer />
