@@ -12,23 +12,23 @@ function Slider() {
   const slides = [
   {
   id: 0,
-  image: '',
+  image: 'imgs/AC.png',
   },
   {
   id: 1,
-      image: '',
+      image: 'imgs/anotherchance.png',
     },
     {
       id: 2,
-      image: '' ,
+      image: 'imgs/AC.png' ,
     },
     {
       id: 3,
-      image: '' ,
+      image: 'imgs/anotherchance.png' ,
     },
     {
       id: 3,
-      image: '' ,
+      image: 'imgs/AC.png' ,
     },
   
   ];
