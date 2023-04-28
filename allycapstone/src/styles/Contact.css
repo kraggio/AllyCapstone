@@ -1,52 +1,68 @@
-.contact {
+ /* .contact {
     padding: 2rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 3rem;
-  }
-  
-  .contact .image {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
-  }
-  
-  .contact .image img {
-    width: 100%;
-    max-height: 800px;
-  }
+ } */
   
   .contact form {
-    -webkit-box-flex: 1;
+    /* -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
-    padding: 2rem 7%;
+            flex: 1 1 40rem; */
+    /* padding: 2rem 7%; */
+    margin-left: 65rem;
+    width: 60%;
+    
+    /* display: block; */
+  }
+
+  .map{
+    width: 90px;
+    padding: 20px;
+    margin: 30px;
+    float: left;
+    align-items: center;
+    padding-top: 80px;
   }
   
-  .contact form .btn {
-    width: 100%;
-    padding:10px;
+ .form {
+  /* display: block; */
+  float: right;
+  margin: 20rem;
+ }
+  .contact .btn {
+    background-color: #fff;
+    color: #1d1d1d;
+    border: none;
+    width: 50%;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: purple;
+    color: red;
+  }
+  
+  .contact h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: purple;
+    width: 50%;
     text-align: center;
   }
   
-  .contact form .btn:hover {
-    background: hotpink;
-  }
-  
-  .contact form h3 {
-    font-size: 3rem;
-    padding-bottom: 1rem;
-    color: hotpink;
-  }
-  
-  .contact form .box, .contact form textarea {
-    width: 100%;
+  .contact  .box, .contact  textarea {
+    width: 50%;
     border-bottom: 0.2rem solid black;
     border-width: .1rem;
     font-size: 1.6rem;
@@ -54,9 +70,21 @@
     color: #130f40;
     padding: 1.5rem 0;
     margin: 1rem 0;
+    text-align: center;
+    border-radius: 10px;
+    left: 30000px;
+
   }
   
-  .contact form textarea {
+  .contact textarea {
     height: 15rem;
     resize: none;
+  }
+
+  .form{
+    float: right;
+    
+  }
+  .contact {
+    background-color: #130f40;
   }

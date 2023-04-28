@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Volunteer from "./pages/Volunteer";
+import Map from "./components/Map";
 
 import "./App.css";
 export const AppContext = React.createContext();
