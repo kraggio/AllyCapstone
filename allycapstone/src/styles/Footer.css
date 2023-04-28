@@ -1,8 +1,8 @@
 .section__padding {
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 4rem 4rem 4rem 4rem;
 }
 .footer {
-  background-color: rgb(76, 60, 84);
+  background-color: #6f1e51;
 }
 .sb__footer {
   display: flex;
@@ -24,10 +24,11 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  color: hotpink;
+  color: #fc427b;
 }
 .sb__footer-links-div h4 {
-  color: hotpink;
+  color: #fc427b;
+  font-size: 16px;
 }
 
 a {
@@ -39,15 +40,15 @@ a {
   flex-direction: row;
 }
 .socialmedia img {
-  width: 99%;
+  width: 80%;
 }
 .sb__footer-links_div h4 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   margin-bottom: 0.9rem;
 }
-.sb__footer-links_div p {
-  font-size: 12px;
+.sb__footer-links-div p {
+  font-size: 16px;
   line-height: 15px;
   margin: 0.5rem 0;
   cursor: pointer;
