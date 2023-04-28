@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-
 class Navbar extends Component {
-
   render() {
     return (
       <nav>
@@ -13,9 +11,9 @@ class Navbar extends Component {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/volunteer">Volunteer Hours</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact">Contact</Link>
           </li>

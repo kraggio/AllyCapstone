@@ -4,8 +4,11 @@ import React from "react";
 import "../styles/login.css";
 // import Signup from '../components/Signup';
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const sign_in_btn = document.querySelector("#sign-in-btn");
     const sign_up_btn = document.querySelector("#sign-up-btn");
@@ -46,7 +49,14 @@ function Login() {
                 <i className="fas fa-lock" />
                 <input type="password" placeholder="Password" />
               </div>
-              <input type="submit" defaultValue="Login" className="btn solid" />
+              {/* <input type="submit" defaultValue="Login" className="btn solid" /> */}
+              <input
+                type="submit"
+                defaultValue="Login"
+                className="btn solid"
+                onClick={() => navigate("/volunteer")}
+              />
+
               <p className="social-text">Or Sign in with social platforms</p>
               <div className="social-media">
                 <a href="#" className="social-icon">
