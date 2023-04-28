@@ -1,7 +1,5 @@
-
-.wholepage body{
-    background: rgb(111,30,81);
-background: linear-gradient(90deg, rgba(111,30,81,1) 0%, rgba(252,66,123,1) 35%, rgba(111,30,81,1) 100%);
+body{
+    /* background-color: #FC427B */
 }
 .grid-container{
 
