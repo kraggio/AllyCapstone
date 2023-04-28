@@ -35,7 +35,7 @@
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .button-v:hover {
@@ -43,7 +43,7 @@
 }
 
 /* Card Styles */
-.card {
+.card-v {
   background-color: #ffffff;
   margin: 20px 0;
   padding: 20px;
@@ -52,11 +52,11 @@
   max-width: 40vh;
 }
 
-.card h2 {
+.card-v h2 {
   color: #6f1e51;
 }
 
-.card p {
+.card-v p {
   margin: 10px 0;
   font-size: 18px;
   color: #fc427b;
@@ -168,15 +168,15 @@
     font-size: 16px;
   }
 
-  .card {
+  .card-v {
     padding: 10px;
   }
 
-  .card h2 {
+  .card-v h2 {
     font-size: 24px;
   }
 
-  .card p {
+  .card-v p {
     font-size: 16px;
   }
 }

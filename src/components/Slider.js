@@ -12,23 +12,23 @@ function Slider() {
   const slides = [
   {
   id: 0,
-  image: '',
+  image: 'imgs/AC.png',
   },
   {
   id: 1,
-      image: '',
+      image: 'imgs/anotherchance.png',
     },
     {
       id: 2,
-      image: '' ,
+      image: 'imgs/AC.png' ,
     },
     {
       id: 3,
-      image: '' ,
+      image: 'imgs/anotherchance.png' ,
     },
     {
       id: 3,
-      image: '' ,
+      image: 'imgs/AC.png' ,
     },
   
   ];
@@ -48,7 +48,7 @@ function Slider() {
       <div className='about'>
 <div class="content">
 <br></br><h3>What <span> We do. </span></h3>
-<p> text about our mission.text about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our mission.text about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our missiontext about our mission
+<p> Social Spark was founded in 2023 by three passionate individuals who shared a common goal: to create a platform that supports organizations in spreading knowledge about financial literacy, feeding the homeless, human rights, and supporting the youth. Their vision was to create a company that could bridge the gap between those who want to volunteer and organizations that need volunteers. Social Spark provides a portal that connects volunteers with organizations that need help, and it also tracks the time spent volunteering. This way, volunteers can keep track of their efforts and make sure that they are making a meaningful contribution to their communities. With a commitment to promoting positive change and supporting community initiatives, Social Spark is quickly becoming the go-to platform for individuals looking to make a difference in their community. The company's founders believe that everyone has something to give, and they are dedicated to creating a platform that makes it easy for people to get involved and make a difference.
 
 </p>
 {/* <button className='btn'>read more</button> */}
