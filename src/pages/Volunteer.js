@@ -101,7 +101,7 @@ function Volunteer() {
       </form>
 
       {cards.map((card, index) => (
-        <div className="card" key={index}>
+        <div className="card-v" key={index}>
           <h2>{card.fullName}</h2>
           <p>Organization: {card.orgName}</p>
           <p>Volunteer Type: {card.volunteerType}</p>
