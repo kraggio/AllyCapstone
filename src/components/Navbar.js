@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../styles/NavbarStyles.css";
 
 class Navbar extends Component {
-
   render() {
     return (
       <nav>
@@ -13,9 +11,14 @@ class Navbar extends Component {
               Home
             </Link>
           </li>
+
+          {/* <li>
+            <Link to="/volunteer">Track Your Hours</Link>
+          </li> */}
           <li>
-            <Link to="/volunteer">Volunteer Hours</Link>
+            <Link to="/partners">Partners</Link>
           </li>
+
           <li>
             <Link to="/contact">Contact</Link>
           </li>
