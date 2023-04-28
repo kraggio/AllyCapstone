@@ -1,6 +1,27 @@
+
+import React, {useState} from 'react'
+import '../styles/Contact.css'
+import '../components/Navbar'
+import MyComponent from "../components/Map"
+// import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
+
+
+// function Map() {
+
+//   return (
+//    <GoogleMap 
+//   defaultZooom={10} 
+//   defaultCenter={{lat: 35.227085, lng:-80.843124}}
+// />
+//   )
+// }
+
+//  const WrappedMap= withScriptjs(withGoogleMap(Map));
+
 import React, { useState } from "react";
 import "../styles/Contact.css";
 import "../components/Navbar";
+
 
 // usues use state hook to create four state variables to keep track of the values entered into each input field:
 const Contact = () => {
@@ -19,12 +40,20 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <div className='map'>
+    <MyComponent />
+    </div>
     <section className="contact" id="contact">
-      <div className="image">
-        <img src="images/keychain.jpg" alt="keychain" />
-      </div>
       <form action="" onSubmit={handleSubmit}>
         <h3>Stay Connected!</h3>
+
+
+        <input type="text" placeholder="your name" className="box"  value={name} onChange={(event) => setName(event.target.value)} required />
+        <input type="email" placeholder="your email" className="box" value={email} onChange={(event) => setEmail(event.target.value)} required  />
+        <input type="number" placeholder="your number" className="box" value={number} onChange={(event) => setNumber(event.target.value)} />
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10" value={message} onChange={(event) => setMessage(event.target.value)}/>
+
         <input
           type="text"
           placeholder="your name"
@@ -57,9 +86,11 @@ const Contact = () => {
           value={message}
           onChange={(event) => setMessage(event.target.value)}
         />
+
         <input type="submit" value="send message" className="btn" />
       </form>
     </section>
+    </>
   );
 };
 
