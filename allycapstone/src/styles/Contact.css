@@ -35,7 +35,7 @@
   float: right;
   margin: 20rem;
  }
-  .contact .btn {
+  .contact .btn-c {
     background-color: #fff;
     color: #1d1d1d;
     border: none;
@@ -48,9 +48,9 @@
     transition: all 0.3s ease-in-out;
   }
   
-  .btn:hover {
+  .btn-c:hover {
     background-color: purple;
-    color: red;
+    color: white;
   }
   
   .contact h3 {

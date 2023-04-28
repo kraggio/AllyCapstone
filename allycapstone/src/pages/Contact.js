@@ -44,7 +44,7 @@ const Contact = () => {
         <input type="email" placeholder="your email" className="box" value={email} onChange={(event) => setEmail(event.target.value)} required  />
         <input type="number" placeholder="your number" className="box" value={number} onChange={(event) => setNumber(event.target.value)} />
         <textarea name="" placeholder="your message" id="" cols="30" rows="10" value={message} onChange={(event) => setMessage(event.target.value)}/>
-        <input type="submit" value="send message" className="btn" />
+        <input type="submit" value="send message" className="btn-c" />
       </form>
     </section>
     </>
