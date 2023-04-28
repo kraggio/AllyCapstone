@@ -17,7 +17,19 @@ function Admin(){
         const Logout = () => {
             console.log("Logout");
         }
-    return 
+    return (
+        <div className= "administrator">
+            {(user.email != "") ? (
+                <div className = "welcome">
+                    <h2>Welcome, <span>{user.email}</span></h2>
+                    <button>Logout</button>
+                    </div>
+            ):(
+               <Login /> 
+            )}
+        </div>
+    );
+}
 
 
 export default Admin;
