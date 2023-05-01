@@ -8,7 +8,11 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Loggedin({ Login, error }) {
+<<<<<<< HEAD
   const [details, setDetails] = useState({
+=======
+  const [details, setDetails ] = useState({
+>>>>>>> b132948e1a7d54dd290fe6061c8f5dab6ade240d
     email: "",
     password: "",
   });
@@ -16,7 +20,11 @@ function Loggedin({ Login, error }) {
     e.preventDefault();
 
     Login(details);
+<<<<<<< HEAD
   };
+=======
+  }
+>>>>>>> b132948e1a7d54dd290fe6061c8f5dab6ade240d
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -43,6 +51,7 @@ function Loggedin({ Login, error }) {
       });
     };
   }, []);
+<<<<<<< HEAD
   return (
     <div className="container">
       <div className="forms-container">
@@ -51,6 +60,23 @@ function Loggedin({ Login, error }) {
             <h2 className="title">Sign in</h2>
             <div className="input-field">
               <i className="fas fa-user" />
+=======
+  return(
+      <div className="container">
+        <div className="forms-container">
+          <div className="signin-signup">
+            <form action="#" className="sign-in-form">
+              <h2 className="title">Sign in</h2>
+              <div className="input-field">
+                <i className="fas fa-user" />
+                <input type="text" username="username" id="username" placeholder="Username" onChange={e => setDetails({...details, username: e.target.value })} vallue={details.username} />
+              </div>
+              <div className="input-field">
+                <i className="fas fa-lock" />
+                <input type="password" placeholder="Password" />
+              </div>
+              {/* <input type="submit" defaultValue="Login" className="btn solid" /> */}
+>>>>>>> b132948e1a7d54dd290fe6061c8f5dab6ade240d
               <input
                 type="text"
                 username="username"
@@ -123,6 +149,7 @@ function Loggedin({ Login, error }) {
           </form>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="panels-container">
         <div className="panel left-panel">
           <div className="content">
@@ -154,5 +181,8 @@ function Loggedin({ Login, error }) {
       </div>
     </div>
   );
+=======
+  )
+>>>>>>> b132948e1a7d54dd290fe6061c8f5dab6ade240d
 }
 export default Loggedin;
