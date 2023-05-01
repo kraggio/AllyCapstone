@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# SocialSpark
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a concept to assist Ally employees in finding, and keeping track of
 
 ## Available Scripts
 
