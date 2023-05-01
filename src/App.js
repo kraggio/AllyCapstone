@@ -15,8 +15,7 @@ import Volunteer from "./pages/Volunteer";
 import Map from "./components/Map";
 
 import Footer from "./components/Footer";
-import Partners from "./pages/Partners"
-
+import Partners from "./pages/Partners";
 
 import "./App.css";
 export const AppContext = React.createContext();
