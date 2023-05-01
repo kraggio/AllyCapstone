@@ -206,6 +206,7 @@ form.sign-in-form {
   color: #fff;
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
+  font-size: 30px;
 }
 
 .panel h3 {

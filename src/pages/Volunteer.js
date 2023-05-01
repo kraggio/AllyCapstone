@@ -1,5 +1,47 @@
+// import { useState } from "react";
+// import "../styles/Volunteer.css";
+// import Axios from 'axios';
+
+// function Volunteer() {
+//   const [fullName, setFullName] = useState("");
+//   const [orgName, setOrgName] = useState("");
+//   const [volunteerType, setVolunteerType] = useState("");
+//   const [hoursVolunteered, setHoursVolunteered] = useState("");
+
+//   // const handleSubmit = (event) => {
+//   //   event.preventDefault();
+//   //   const newCard = { fullName, orgName, volunteerType, hoursVolunteered };
+//   //   setCards([...cards, newCard]);
+//   //   setFullName("");
+//   //   setOrgName("");
+//   //   setVolunteerType("");
+//   //   setHoursVolunteered("");
+//   // };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+
+//     Axios.post('http://localhost:8004/volunteer', {
+//       fullname: fullName,
+//       org_name: orgName,
+//       work_type: volunteerType,
+//       vol_hours: hoursVolunteered,
+//     })
+//       .then((res) => {
+//         console.log(res.data);
+//         // Reset the form after successful submission
+//         setFullName('');
+//         setOrgName('');
+//         setVolunteerType('');
+//         setHoursVolunteered('');
+
+//       })
+//       .catch((err) => {
+//         console.error('Error submitting contact form:', err);
+//       });
+//   };
 import { useState } from "react";
 import "../styles/Volunteer.css";
+import Axios from "axios";
 
 function Volunteer() {
   const [fullName, setFullName] = useState("");
@@ -12,10 +54,20 @@ function Volunteer() {
     event.preventDefault();
     const newCard = { fullName, orgName, volunteerType, hoursVolunteered };
     setCards([...cards, newCard]);
-    setFullName("");
-    setOrgName("");
-    setVolunteerType("");
-    setHoursVolunteered("");
+    Axios.post("http://localhost:8009/volunteer", {
+      fullname: fullName,
+      org_name: orgName,
+      work_type: volunteerType,
+      vol_hours: hoursVolunteered,
+    })
+      .then((response) => {
+        console.log(response);
+        // Do something after successful submission
+      })
+      .catch((error) => {
+        console.log(error);
+        // Do something if the submission fails
+      });
   };
 
   return (
