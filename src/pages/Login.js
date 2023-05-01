@@ -5,8 +5,18 @@ import "../styles/login.css";
 // import Signup from '../components/Signup';
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
-function Login() {
+function Loggedin({ Login, error }) {
+  const [details, setDetails ] = useState({
+    email: "",
+    password: "",
+  });
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    Login(details);
+  }
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -33,9 +43,7 @@ function Login() {
       });
     };
   }, []);
-  return (
-    <>
-      {/* <Signup> */}
+  return(
       <div className="container">
         <div className="forms-container">
           <div className="signin-signup">
@@ -43,7 +51,7 @@ function Login() {
               <h2 className="title">Sign in</h2>
               <div className="input-field">
                 <i className="fas fa-user" />
-                <input type="text" placeholder="Username" />
+                <input type="text" username="username" id="username" placeholder="Username" onChange={e => setDetails({...details, username: e.target.value })} vallue={details.username} />
               </div>
               <div className="input-field">
                 <i className="fas fa-lock" />
@@ -136,8 +144,6 @@ function Login() {
           </div>
         </div>
       </div>
-      {/* </Signup> */}
-    </>
-  );
+  )
 }
-export default Login;
+export default Loggedin;

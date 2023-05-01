@@ -1,5 +1,47 @@
+// import { useState } from "react";
+// import "../styles/Volunteer.css";
+// import Axios from 'axios';
+
+// function Volunteer() {
+//   const [fullName, setFullName] = useState("");
+//   const [orgName, setOrgName] = useState("");
+//   const [volunteerType, setVolunteerType] = useState("");
+//   const [hoursVolunteered, setHoursVolunteered] = useState("");
+
+//   // const handleSubmit = (event) => {
+//   //   event.preventDefault();
+//   //   const newCard = { fullName, orgName, volunteerType, hoursVolunteered };
+//   //   setCards([...cards, newCard]);
+//   //   setFullName("");
+//   //   setOrgName("");
+//   //   setVolunteerType("");
+//   //   setHoursVolunteered("");
+//   // };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+
+//     Axios.post('http://localhost:8004/volunteer', {
+//       fullname: fullName,
+//       org_name: orgName,
+//       work_type: volunteerType,
+//       vol_hours: hoursVolunteered,
+//     })
+//       .then((res) => {
+//         console.log(res.data);
+//         // Reset the form after successful submission
+//         setFullName('');
+//         setOrgName('');
+//         setVolunteerType('');
+//         setHoursVolunteered('');
+
+//       })
+//       .catch((err) => {
+//         console.error('Error submitting contact form:', err);
+//       });
+//   };
 import { useState } from "react";
 import "../styles/Volunteer.css";
+import Axios from "axios";
 
 function Volunteer() {
   const [fullName, setFullName] = useState("");
@@ -12,16 +54,26 @@ function Volunteer() {
     event.preventDefault();
     const newCard = { fullName, orgName, volunteerType, hoursVolunteered };
     setCards([...cards, newCard]);
-    setFullName("");
-    setOrgName("");
-    setVolunteerType("");
-    setHoursVolunteered("");
+    Axios.post("http://localhost:8009/volunteer", {
+      fullname: fullName,
+      org_name: orgName,
+      work_type: volunteerType,
+      vol_hours: hoursVolunteered,
+    })
+      .then((response) => {
+        console.log(response);
+        // Do something after successful submission
+      })
+      .catch((error) => {
+        console.log(error);
+        // Do something if the submission fails
+      });
   };
 
   return (
     <div className="container-v">
       <form onSubmit={handleSubmit} className="form-v">
-        <body className="body-v">
+        <div className="body-v">
           <div className="loader">
             <span style={{ "--i": 10 }}></span>
             <span style={{ "--i": 9 }} className="span-v"></span>
@@ -34,7 +86,7 @@ function Volunteer() {
             <span style={{ "--i": 2 }} className="span-v"></span>
             <span style={{ "--i": 1 }} className="span-v"></span>
           </div>
-        </body>
+        </div>
         <label htmlFor="fullName-input" className="label-v">
           Full Name:
         </label>

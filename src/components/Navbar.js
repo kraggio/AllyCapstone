@@ -5,9 +5,12 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
+           <div className="logo">
+          <img src="imgs/transparent.png" alt="logo" />
+        </div>
         <ul id="navbar">
           <li>
-            <Link className="active" to="/">
+            <Link to="/">
               Home
             </Link>
           </li>

@@ -25,7 +25,7 @@ function Admin(){
                     <button>Logout</button>
                     </div>
             ):(
-               <Login /> 
+               <Login Login={Login} error={error}/> 
             )}
         </div>
     );
