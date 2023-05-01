@@ -1,8 +1,9 @@
-const express = require('express');
-const mysql = require('mysql2');
-const cors = require('cors');
+const express = require("express");
+const mysql = require("mysql2");
+const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
+
 
 
 app.use(express.json())
@@ -12,20 +13,22 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
 // database connection
 
 const db = mysql.createConnection({
-  host: '127.0.0.1',
-  user: 'root',
-  password: 'password',
-  database: 'SocialSparkDB'
-})
+  host: "127.0.0.1",
+  user: "root",
+  password: "password",
+  database: "SocialSparkDB",
+});
 
-db.connect(err =>{
-  if(err){
-    console.log(err.message)
+db.connect((err) => {
+  if (err) {
+    console.log(err.message);
     return;
   }
+
   console.log('Connected to database')
 })
 
@@ -62,3 +65,4 @@ app.post('/volunteer', (req, res) => {
 app.listen(8009, ()=>{
     console.log("Connected to backend!")
 })
+

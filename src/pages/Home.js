@@ -1,17 +1,20 @@
-import React from 'react';
+import React from "react";
 import Slider from "../components/Slider";
+import "../styles/home.css";
 
 function Home() {
+
     return (
         <div className="html">
         <div className="home">
           <div className="content">
             <h3> </h3>
             {/* <a href="/partners">
+
               <button>Explore!</button>
             </a> */}
-          </div>
         </div>
+
         <Slider />
         <div className="about">
           <div className="image">
@@ -29,9 +32,11 @@ With their vision in mind, the creators of Social Spark created a portal that co
 Today, Social Spark is quickly becoming the go-to platform for individuals looking to make a difference in their community. The company's founders are proud to have created a platform that supports positive change, and they are committed to expanding their reach to empower more people to make a difference in the world.
             </p>
           </div>
+
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default Home;

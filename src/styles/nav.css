@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  /* background-color: #FC427B */
+}
+header .navbar link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  padding: 20px 80px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+}
+
+header.active {
+  -webkit-transform: translateY(0rem);
+  transform: translateY(0rem);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+nav .logo img {
+  max-height: 100px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #6f1e51;
+  transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: #fc427b;
+}
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #fc427b;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.navbar .active {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar ul {
+    display: none;
+    justify-content: center;
+  }
+}
