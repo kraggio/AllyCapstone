@@ -10,9 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-<<<<<<< HEAD:allycapstone/package.json
-    "mysql2": "^3.2.4",
-=======
 
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
@@ -30,7 +27,6 @@
     "mysql2": "^3.2.4",
 
 
->>>>>>> 5f786e2d39afa5cb195c2072c88ac28171da9372:package.json
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
