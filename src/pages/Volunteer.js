@@ -21,7 +21,7 @@ function Volunteer() {
   return (
     <div className="container-v">
       <form onSubmit={handleSubmit} className="form-v">
-        <body className="body-v">
+        <div className="body-v">
           <div className="loader">
             <span style={{ "--i": 10 }}></span>
             <span style={{ "--i": 9 }} className="span-v"></span>
@@ -34,7 +34,7 @@ function Volunteer() {
             <span style={{ "--i": 2 }} className="span-v"></span>
             <span style={{ "--i": 1 }} className="span-v"></span>
           </div>
-        </body>
+        </div>
         <label htmlFor="fullName-input" className="label-v">
           Full Name:
         </label>
