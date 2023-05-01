@@ -33,6 +33,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="partners" element={<Partners />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="/volunteer" element={<Volunteer />} />
         </Routes>
         <Footer />
       </BrowserRouter>
