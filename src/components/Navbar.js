@@ -6,14 +6,12 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-           <div className="logo">
+        <div className="logo">
           <img src="imgs/transparent.png" alt="logo" />
         </div>
         <ul id="navbar">
           <li>
-            <Link to="/">
-              Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
 
           {/* <li>
