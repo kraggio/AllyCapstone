@@ -16,7 +16,7 @@ FOR MAC OS
 
 3. You now have this code on your desktop as a folder. Open this up in your preffered code editor
 
-4. Once this folder is open, you can open a terminal within your editor, or continue working on the previous you were on (if working on previous, make sure you run cd AllyCapstone within that terminal. This will now take you to the project where you can complete your next step)
+4. Once this folder is open, you can open a terminal within your editor, or continue working on the previous you were on (if working on previous, make sure you run this command: cd AllyCapstone within that terminal. This will now take you to the project where you can complete your next step)
 
 5. Once in AllyCapstone, run this command : npm install (this command installs necessary modules and packages in order to run the application)
 
