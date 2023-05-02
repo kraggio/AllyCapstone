@@ -20,7 +20,7 @@ This project was a concept to assist Ally employees in finding and keeping track
 
 6. Once the system is done with installing, in the same terminal, run this command : npm start
 
-- If you would like to see our hosted site for reference, please visit https://6451333babb5490ebfbb6ad4--imaginative-shortbread-b5d217.netlify.app/ -
+- If you would like to see our hosted site for reference, please visit https://6451333babb5490ebfbb6ad4--imaginative-shortbread-b5d217.netlify.app/
 
 # AllyCapstone
 
