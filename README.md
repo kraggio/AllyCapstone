@@ -8,6 +8,8 @@ This project was a concept to assist Ally employees in finding and keeping track
 
 # How to run the application
 
+FOR MAC OS
+
 1. Copy our repository link and open up a new terminal (ensure you are cd in your desktop)
 
 2. git clone the repository link : git clone https://github.com/kraggio/AllyCapstone.git
