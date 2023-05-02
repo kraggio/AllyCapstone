@@ -99,7 +99,7 @@ function Loggedin({ Login, error }) {
               </a>
             </div>
           </form>
-          <form action="#" className="sign-up-form">
+          <form action="/login" className="sign-up-form">
             <h2 className="title">Sign up</h2>
             <div className="input-field">
               <i className="fas fa-user" />
