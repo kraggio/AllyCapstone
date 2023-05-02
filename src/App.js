@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Volunteer from "./pages/Volunteer";
 
-import Map from "./components/Map";
+// import Map from "./components/Map";
 
 import Footer from "./components/Footer";
 import Partners from "./pages/Partners";
