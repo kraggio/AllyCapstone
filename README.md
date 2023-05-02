@@ -24,6 +24,8 @@ FOR MAC OS
 
 - If you would like to see our hosted site for reference, please visit https://6451333babb5490ebfbb6ad4--imaginative-shortbread-b5d217.netlify.app/
 
+![Logo](/src/images/home.png)
+
 # AllyCapstone
 
 This website is our end of program project for Ally.
