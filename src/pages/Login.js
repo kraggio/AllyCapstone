@@ -12,11 +12,11 @@ function Loggedin({ Login, error }) {
     email: "",
     password: "",
   });
-  const submitHandler = (e) => {
-    e.preventDefault();
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
 
-    Login(details);
-  };
+  //   Login(details);
+  // };
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -76,16 +76,25 @@ function Loggedin({ Login, error }) {
 
             <p className="social-text">Or Sign in with social platforms</p>
             <div className="social-media">
-              <a href="#" className="social-icon">
+              <a href="https://www.facebook.com/ally" className="social-icon">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://twitter.com/allyfinancial?lang=en"
+                className="social-icon"
+              >
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://www.google.com/search?q=ally+financial&sxsrf=APwXEdcCpxXRSRsaSSFc7ltqrE2Qt4cEjA%3A1683042859466&source=hp&ei=KzJRZJHGGtnpkPIPtY25uA4&iflsig=AOEireoAAAAAZFFAO3iXt0wnkA1tGiIevHTzDysH8jYk&gs_ssp=eJzj4tTP1TcwS8ktyFZgNGB0YPDiS8zJqVRIy8xLzEvOTMwBAIdZCVI&oq=Ally+&gs_lcp=Cgdnd3Mtd2l6EAEYAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIQCC4QigUQsQMQxwEQ0QMQQzITCC4QgAQQFBCHAhCxAxDHARDRAzINCAAQgAQQFBCHAhCxAzIICAAQgAQQsQMyBwgAEIoFEEMyBQgAEIAEMggIABCABBCxAzoNCC4QigUQxwEQ0QMQQzoTCC4QigUQsQMQgwEQxwEQ0QMQQzoKCC4QigUQ1AIQQzoQCC4QxwEQsQMQ0QMQigUQQzoOCC4QgAQQsQMQxwEQ0QM6EwguEBQQxwEQhwIQsQMQ0QMQgARQAFjWB2DhGGgAcAB4AIABY4gBvwOSAQE1mAEAoAEB&sclient=gws-wiz"
+                className="social-icon"
+              >
                 <i className="fab fa-google" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://www.linkedin.com/company/ally/"
+                className="social-icon"
+              >
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
@@ -107,16 +116,25 @@ function Loggedin({ Login, error }) {
             <input type="submit" className="btn" defaultValue="Sign up" />
             <p className="social-text">Or Sign up with social platforms</p>
             <div className="social-media">
-              <a href="#" className="social-icon">
+              <a href="https://www.facebook.com/ally" className="social-icon">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://twitter.com/allyfinancial?lang=en"
+                className="social-icon"
+              >
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://www.google.com/search?q=ally+financial&sxsrf=APwXEdcCpxXRSRsaSSFc7ltqrE2Qt4cEjA%3A1683042859466&source=hp&ei=KzJRZJHGGtnpkPIPtY25uA4&iflsig=AOEireoAAAAAZFFAO3iXt0wnkA1tGiIevHTzDysH8jYk&gs_ssp=eJzj4tTP1TcwS8ktyFZgNGB0YPDiS8zJqVRIy8xLzEvOTMwBAIdZCVI&oq=Ally+&gs_lcp=Cgdnd3Mtd2l6EAEYAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIQCC4QigUQsQMQxwEQ0QMQQzITCC4QgAQQFBCHAhCxAxDHARDRAzINCAAQgAQQFBCHAhCxAzIICAAQgAQQsQMyBwgAEIoFEEMyBQgAEIAEMggIABCABBCxAzoNCC4QigUQxwEQ0QMQQzoTCC4QigUQsQMQgwEQxwEQ0QMQQzoKCC4QigUQ1AIQQzoQCC4QxwEQsQMQ0QMQigUQQzoOCC4QgAQQsQMQxwEQ0QM6EwguEBQQxwEQhwIQsQMQ0QMQgARQAFjWB2DhGGgAcAB4AIABY4gBvwOSAQE1mAEAoAEB&sclient=gws-wiz"
+                className="social-icon"
+              >
                 <i className="fab fa-google" />
               </a>
-              <a href="#" className="social-icon">
+              <a
+                href="https://www.linkedin.com/company/ally/"
+                className="social-icon"
+              >
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
