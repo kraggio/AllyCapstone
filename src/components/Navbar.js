@@ -11,7 +11,7 @@ class Navbar extends Component {
         </div>
         <ul id="navbar">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
 
           {/* <li>
@@ -25,7 +25,7 @@ class Navbar extends Component {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/login">Login</Link>
+            <Link to="/">Login</Link>
           </li>
         </ul>
       </nav>
