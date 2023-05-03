@@ -7,7 +7,6 @@ body {
   width: 100%;
 }
 
-
 .contact-c .box,
 .contact-c textarea {
   width: 50%;
@@ -71,7 +70,7 @@ body {
 
 .btn:hover {
   background-color: #fff;
-  color: black;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -99,13 +98,11 @@ body {
     padding-top: 30px;
   }
 
-
   .contact-c .box,
   .contact-c textarea {
     width: 100%;
     margin: 10px 0;
   }
-
 
   .contact-c .btn-c {
     width: 100%;
