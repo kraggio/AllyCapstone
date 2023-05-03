@@ -5,8 +5,11 @@ import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 
 const containerStyle = {
-  width: "600px",
-  height: "600px",
+  width: "70%",
+  height: "90%",
+  // margin: "40px",
+  
+  
   //   width: '50%',
   //   height: '50%'
 };
@@ -85,9 +88,11 @@ function MyComponent() {
   const handleMarkerClick = (marker) => {
     setCenter(marker.location);
     map.setZoom(10);
+    // I Accidently hard coded my map using bounds. Once i noticed and went through trial and error i was able to set the map zoom to the distnace you see now on screen//
   };
 
   return isLoaded ? (
+    <div style={{ height: "600px", width: "600px" }}>
     <GoogleMap
       mapContainerStyle={containerStyle}
       center={center}
@@ -104,6 +109,7 @@ function MyComponent() {
         />
       ))}
     </GoogleMap>
+    </div>
   ) : (
     <></>
   );
