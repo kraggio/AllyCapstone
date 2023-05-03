@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "../styles/nav.css";
 
 class Navbar extends Component {
   render() {
     return (
       <nav>
+        <div className="logo">
+          <img src="imgs/transparent.png" alt="logo" />
+        </div>
         <ul id="navbar">
           <li>
-            <Link className="active" to="/">
-              Home
-            </Link>
+            <Link to="/home">Home</Link>
           </li>
 
           {/* <li>
@@ -23,7 +25,7 @@ class Navbar extends Component {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/login">Login</Link>
+            <Link to="/">Login</Link>
           </li>
         </ul>
       </nav>

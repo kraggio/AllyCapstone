@@ -158,6 +158,8 @@
 @media (max-width: 600px) {
   .form-v {
     padding: 10px;
+    border-radius: 0px;
+    margin: 5px;
   }
 
   .input-v {

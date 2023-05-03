@@ -1,81 +1,31 @@
-# Getting Started with Create React App
+# - SocialSpark -
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+This project was a concept to assist Ally employees in finding and keeping track of their volunteer hours. Through our site, they're also able to partner with companies Ally personally supports.
 
-In the project directory, you can run:
+![Logo](/src/images/socialspark.png)
 
-### `npm start`
+# How to run the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+FOR MAC OS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Copy our repository link and open up a new terminal (ensure you are cd in your desktop)
 
-### `npm test`
+2. git clone the repository link : git clone https://github.com/kraggio/AllyCapstone.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. You now have this code on your desktop as a folder. Open this up in your preffered code editor
 
-### `npm run build`
+4. Once this folder is open, you can open a terminal within your editor, or continue working on the previous you were on (if working on previous, make sure you run this command: cd AllyCapstone within that terminal. This will now take you to the project where you can complete your next step)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Once in AllyCapstone, run this command : npm install (this command installs necessary modules and packages in order to run the application)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Once the system is done with installing, in the same terminal, run this command : npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If you would like to see our hosted site for reference, please visit https://6451333babb5490ebfbb6ad4--imaginative-shortbread-b5d217.netlify.app/
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Logo](/src/images/home.png)
 
 # AllyCapstone
 
 This website is our end of program project for Ally.
-
-Sources for our footer:
-https://www.youtube.com/watch?v=_NPzWvTD2w8 (this video was referenced to create a professional footer for our website. Changes were made in order to fit our theme and needs)
-The following links are to images used for our social media images(acquired from unsplash)
-https://unsplash.com/photos/71Qk8ODIBko (instagram)
-https://unsplash.com/photos/k1xf2D7jWUs (twitter)
-https://unsplash.com/photos/I4p0FcjDBJI (tiktok)
