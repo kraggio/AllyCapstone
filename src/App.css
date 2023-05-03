@@ -407,6 +407,11 @@ nav .logo img {
   .logo {
     display: none;
   }
+  nav {
+    /* display: flex; */
+
+    padding: 10px 40px;
+  }
 }
 
 @media screen and (max-width: 390px) {
