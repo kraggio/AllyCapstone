@@ -100,6 +100,7 @@ function Loggedin({ Login, error }) {
             </div>
           </form>
           <form action="#" className="sign-up-form">
+            {/* <form className="sign-up-form"> */}
             <h2 className="title">Sign up</h2>
             <div className="input-field">
               <i className="fas fa-user" />
@@ -114,6 +115,9 @@ function Loggedin({ Login, error }) {
               <input type="password" placeholder="Password" />
             </div>
             <input type="submit" className="btn" defaultValue="Sign up" />
+            {/* <button type="submit" className="btn" defaultValue="Sign up">
+              Submit
+            </button> */}
             <p className="social-text">Or Sign up with social platforms</p>
             <div className="social-media">
               <a href="https://www.facebook.com/ally" className="social-icon">
