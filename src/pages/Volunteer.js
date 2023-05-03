@@ -112,14 +112,20 @@ function Volunteer() {
           required
         >
           <option value="">Select an option</option>
-          <option value="Organization 1">Rising Right Now INC.</option>
-          <option value="Organization 2">
+          <option value="Rising Right Now INC.">Rising Right Now INC.</option>
+          <option value="Life Connections of the Carolinas INC.">
             Life Connections of the Carolinas INC.
           </option>
-          <option value="Organization 3">Soul Beauty Outreach</option>
-          <option value="Organization 4">Another Change House of Refuge</option>
-          <option value="Organization 5">Generational Wealth Educators</option>
-          <option value="Organization 6">Talented Girls in Action</option>
+          <option value="Soul Beauty Outreach">Soul Beauty Outreach</option>
+          <option value="Another Change House of Refuge">
+            Another Change House of Refuge
+          </option>
+          <option value="Generational Wealth Educators">
+            Generational Wealth Educators
+          </option>
+          <option value="Talented Girls in Action">
+            Talented Girls in Action
+          </option>
         </select>
 
         <label htmlFor="volunteerType-input" className="label-v">
@@ -134,9 +140,9 @@ function Volunteer() {
           required
         >
           <option value="">Select an option</option>
-          <option value="Option 1">Education</option>
-          <option value="Option 2">Community</option>
-          <option value="Option 3">Health</option>
+          <option value="Education">Education</option>
+          <option value="Community">Community</option>
+          <option value="Health">Health</option>
         </select>
 
         <label htmlFor="hoursVolunteered-input" className="label-v">
